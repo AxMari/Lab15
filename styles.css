@@ -1,0 +1,46 @@
+#main{
+	list-style: none;
+	display: inline-block;
+}
+
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+
+}
+
+.green {
+	color: green;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.aquamarine {
+	color: aquamarine;
+}
+
+.big {
+	font-size: 200%;
+}
+
+.small {
+	font-size:50%;
+}
+
+.arial {
+	font-family: arial;
+}
+
+.courier {
+	font-family: courier;
+}
+
+.bold {
+	font-weight: bold;
+}

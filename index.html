@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>6 Year Old</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="jQuery.js"></script>
+	
+</head>
+<body ng-app="myModule" ng-controller="myController">
+
+	<button type="button" value="word" ng-click="addWord()">Words</button>
+	<button type="button" value="moreWord" ng-click="addPhrase()">More Words</button>
+	<button type="button" value="decor" ng-click="addFancyStyle()">Words with Decorations</button>
+	<button type="button" value="moreDecor" ng-click="addFancyPhrase()">More words with Decorations</button>
+	<button type="button" value="talk" ng-click="bigButton()">Talk!</button>
+
+		<ul >
+			<li id="main" ng-class="[item.style1, item.style2];" ng-repeat="item in arr track by $index">{{item.text}}</li>
+		</ul>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script type="text/javascript" src="styles.js"></script>
+</body>
+</html>
