@@ -56,7 +56,8 @@ angular.module('myModule', [])
 		var item = {
 			text: x,
 			style1: "",
-			style2: ""
+			style2: "",
+			style3: ""
 		};
 		return item;
 	};
@@ -64,6 +65,7 @@ angular.module('myModule', [])
 		var item = {
 			text: x,
 			style1: cssClass(),
+			style2: cssClass(),
 			style2: cssClass()
 		};
 		return item;
