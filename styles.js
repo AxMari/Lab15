@@ -19,7 +19,7 @@ angular.module('myModule', [])
 	 	var phrases = [
 		 	'no fair!\xA0', 
 		 	'that\'s mine!\xA0', 
-		 	'she\'s hitting me!\xA0', 
+		 	'they hit me!\xA0', 
 		 	'I\'m hungry!\xA0', 
 		 	'I don\'t wanna nap\xA0',
 		 	'can we get ice cream?\xA0',
