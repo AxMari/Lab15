@@ -1,5 +1,5 @@
-var app = angular.module('myModule', []); 
-app.controller('myController', function($scope, $interval){ 
+angular.module('myModule', [])
+       .controller('myController', function($scope, $interval){ 
 
 	function words(){
 	 	var word = [
