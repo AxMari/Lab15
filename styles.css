@@ -29,6 +29,10 @@
 	font-size: 200%;
 }
 
+.reallybig {
+	font-size: 300%;
+	font-weight: bold;
+}
 
 .small {
 	font-size:50%;
@@ -40,6 +44,10 @@
 
 .courier {
 	font-family: courier;
+}
+
+.cursive {
+	font-family: cursive;
 }
 
 .bold {
