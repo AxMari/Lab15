@@ -17,13 +17,22 @@ app.controller('myController', function($scope, $interval){
 	 		'courier', 
 	 		'bold',
 	 		'yellow',
-	 		'aquamarine'
+	 		'aquamarine',
+	 		'blackback',
+	 		'violetback',
+	 		'pinkback'
 	 	];
 	 	return classes[Math.floor(Math.random() * classes.length)];
 	};
 	
 	function phrase(){
-	 	var phrases = ['no fair!\xA0', 'thats mine!\xA0', 'shes hitting me!\xA0', 'Im hungry!\xA0', 'I dont wanna nap\xA0' ];
+	 	var phrases = [
+	 	'no fair!\xA0', 
+	 	'thats mine!\xA0', 
+	 	'shes hitting me!\xA0', 
+	 	'Im hungry!\xA0', 
+	 	'I dont wanna nap\xA0' 
+	 	];
 	 	return phrases[Math.floor(Math.random() * phrases.length)];
 	};
 	function wordButton(){

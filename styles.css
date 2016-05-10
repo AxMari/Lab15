@@ -29,6 +29,7 @@
 	font-size: 200%;
 }
 
+
 .small {
 	font-size:50%;
 }
@@ -43,4 +44,20 @@
 
 .bold {
 	font-weight: bold;
+}
+
+.blackback {
+	background-color: black;
+	color: white;
+
+}
+
+.violetback {
+	background-color: violet;
+
+}
+
+.pinkback {
+	background-color: pink;
+
 }
