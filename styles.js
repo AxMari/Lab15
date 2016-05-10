@@ -82,10 +82,10 @@ angular.module('myModule', [])
 	$scope.arr = [];
 
 	$scope.addWord= function(){
-		$scope.arr.push(Button(words()));
+		$scope.arr.push(button(words()));
 	};
 	$scope.addPhrase= function(){
-		$scope.arr.push(Button(phrase()));
+		$scope.arr.push(button(phrase()));
 	};
 	$scope.addFancyStyle= function(){
 		$scope.arr.push(fancyButton(words()));
