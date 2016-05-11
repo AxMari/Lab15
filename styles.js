@@ -1,6 +1,10 @@
 angular.module('myModule', [])
        .controller('myController', function($scope, $interval){ 
 
+    function randomize(x){
+    	return x[Math.floor(Math.random() * x.length)];
+    };
+
 	function words(){
 	 	var word = [
 		 	'what?\xA0', 
@@ -13,7 +17,7 @@ angular.module('myModule', [])
 		 	'why?\xA0',
 		 	'why?\xA0'
 	 	];
-	 	return word[Math.floor(Math.random() * word.length)];
+	 	return randomize(word);
 	};
 	function phrase(){
 	 	var phrases = [
@@ -28,7 +32,7 @@ angular.module('myModule', [])
 		 	'nuh uh!\xA0',
 		 	'yeah huh!\xA0'
 	 	];
-	 	return phrases[Math.floor(Math.random() * phrases.length)];
+	 	return randomize(phrases);
 	};
 	function cssClass(){
 	 	var classes = [
@@ -48,7 +52,7 @@ angular.module('myModule', [])
 	 		'violetback',
 	 		'pinkback'
 	 	];
-	 	return classes[Math.floor(Math.random() * classes.length)];
+	 	return randomize(classes);
 	};
 	
 
