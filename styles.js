@@ -82,7 +82,7 @@ angular.module('myModule', [])
 		fancyButton(words()),
 		fancyButton(phrase())
 		];
-		return funct[Math.floor(Math.random() * funct.length)];
+		return randomize(funct);
 	};
 
 	$scope.arr = [];
